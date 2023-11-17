@@ -1,0 +1,15 @@
+C:\Users\murilo.pinheiro\Desktop\TrabLip\bin\Debug\net8.0\TrabLip.exe
+C:\Users\murilo.pinheiro\Desktop\TrabLip\bin\Debug\net8.0\TrabLip.deps.json
+C:\Users\murilo.pinheiro\Desktop\TrabLip\bin\Debug\net8.0\TrabLip.runtimeconfig.json
+C:\Users\murilo.pinheiro\Desktop\TrabLip\bin\Debug\net8.0\TrabLip.dll
+C:\Users\murilo.pinheiro\Desktop\TrabLip\bin\Debug\net8.0\TrabLip.pdb
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\TrabLip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\TrabLip.AssemblyInfoInputs.cache
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\TrabLip.AssemblyInfo.cs
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\TrabLip.csproj.CoreCompileInputs.cache
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\TrabLip.sourcelink.json
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\TrabLip.dll
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\refint\TrabLip.dll
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\TrabLip.pdb
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\TrabLip.genruntimeconfig.cache
+C:\Users\murilo.pinheiro\Desktop\TrabLip\obj\Debug\net8.0\ref\TrabLip.dll
