@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Termos{
     public class Termo
@@ -7,7 +8,8 @@ namespace Termos{
 
         public Termo(string nome_termo)
         {
-            string[] termos = { "true", "false", "suc", "pred", "ehzero", "numero", "if", "lambda", "aplicacao", "var"};
+            List<string> termos = new List<string> { "true", "false", "suc", "pred", "ehzero",
+                                                     "numero", "if", "lambda", "aplicacao", "var"};
             if (termos.Contains(nome_termo))
             {
                 Nome_termo = nome_termo;
