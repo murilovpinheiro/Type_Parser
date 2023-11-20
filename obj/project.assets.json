@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\murilo.pinheiro\\.nuget\\packages\\": {}
+    "C:\\Users\\Murilo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\murilo.pinheiro\\Desktop\\TrabLip\\TrabLip.csproj",
+      "projectUniqueName": "C:\\Users\\Murilo\\Documents\\Projetos C#\\TrabLip.csproj",
       "projectName": "TrabLip",
-      "projectPath": "C:\\Users\\murilo.pinheiro\\Desktop\\TrabLip\\TrabLip.csproj",
-      "packagesPath": "C:\\Users\\murilo.pinheiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\murilo.pinheiro\\Desktop\\TrabLip\\obj\\",
+      "projectPath": "C:\\Users\\Murilo\\Documents\\Projetos C#\\TrabLip.csproj",
+      "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Murilo\\Documents\\Projetos C#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\murilo.pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
