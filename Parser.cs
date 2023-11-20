@@ -10,11 +10,23 @@ namespace ParserNamespace {
     public class Parser{
 
         public Parser(){}
-        public bool ValidarVariavel(string var)
-        {
+        public bool ValidarVariavel(string var){
+            // Verificar se a variável não é uma palavra reservada
             string[] reserved = {"true", "false", "if", "then", "else", "endif", "suc", "pred",
-                                 "ehzero", "lambda", "Nat", "bool", "end", ":", ".", "->", "Bool", "End"};
-            return !reserved.Contains(var);
+                                "ehzero", "lambda", "Nat", "bool", "end", ":", ".", "->", "Bool", "End"};
+            if (reserved.Contains(var))
+            {
+                return false;
+            }
+
+            // Verificar se a variável não é um número
+            if (int.TryParse(var, out _))
+            {
+                return false;
+            }
+
+            // Se não for uma palavra reservada nem um número, a variável é válida
+            return true;
         }
 
         public (Tipo, List<string>) TratarLambda(List<string> token_list)
@@ -56,6 +68,7 @@ namespace ParserNamespace {
             else
             {
                 var (v, t) = list_var.FirstOrDefault(item => item.Item1.Nome == variavel.Nome);
+                list_var.RemoveAt(0);
 
                 if (v != null)
                 {
@@ -63,7 +76,7 @@ namespace ParserNamespace {
                 }
                 else
                 {
-                    return new Tipo("sem_tipo");
+                    return TiparVariavel(variavel, list_var);
                 }
             }
         }
@@ -120,13 +133,19 @@ namespace ParserNamespace {
                     {
                         var tipo_funcao = Tipar(app.Funcao, list_var);
                         var tipo_argumento = Tipar(app.Argumento, list_var);
+                        
+                        if(tipo_funcao is Seta seta){
 
-                        if (tipo_funcao is Seta seta && seta.Tipo1.Nome_tipo == tipo_argumento.Nome_tipo)
-                        {
-                            return seta.Tipo2;
+                            if (seta.Tipo1.Nome_tipo == tipo_argumento.Nome_tipo)
+                            {
+                                return seta.Tipo2;
+                            }
+                            else
+                            {
+                                return new Tipo("sem_tipo");
+                            }
                         }
-                        else
-                        {
+                        else {
                             return new Tipo("sem_tipo");
                         }
                     }
