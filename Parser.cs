@@ -61,16 +61,18 @@ namespace ParserNamespace {
 
         public Tipo TiparVariavel(Var variavel, List<(Var, Tipo)> list_var)
         {
-            if (list_var == null)
+            if (list_var.Count == 0 || list_var == null)
             {
                 return new Tipo("sem_tipo");
             }
             else
             {
-                var (v, t) = list_var.FirstOrDefault(item => item.Item1.Nome == variavel.Nome);
+                var (v, t) = list_var.First();
+                //var (v, t) = list_var.FirstOrDefault(item => item.Item1.Nome == variavel.Nome);
                 list_var.RemoveAt(0);
+                list_var.Add((v, t));
 
-                if (v != null)
+                if (v.Nome == variavel.Nome)
                 {
                     return t;
                 }
