@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrabLip")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+478cc35c3eb4c2de674bebfe2a21afd542c8baba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrabLip")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrabLip")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Murilo\\Documents\\Projetos C#\\TrabLip.csproj",
+      "projectUniqueName": "C:\\Users\\Murilo\\Documents\\Projetos C#\\TrabLIP\\TrabLip.csproj",
       "projectName": "TrabLip",
-      "projectPath": "C:\\Users\\Murilo\\Documents\\Projetos C#\\TrabLip.csproj",
+      "projectPath": "C:\\Users\\Murilo\\Documents\\Projetos C#\\TrabLIP\\TrabLip.csproj",
       "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Murilo\\Documents\\Projetos C#\\obj\\",
+      "outputPath": "C:\\Users\\Murilo\\Documents\\Projetos C#\\TrabLIP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config"
