@@ -59,7 +59,7 @@ namespace ParserNamespace {
             }
         }
 
-        public Tipo TiparVariavel(Var variavel, List<(Var, Tipo)> list_var)
+        public Tipo TiparVariavel(Var variavel, List<(Var, Tipo)> list_var, int iter)
         {
             if (list_var.Count == 0 || list_var == null)
             {
@@ -78,7 +78,11 @@ namespace ParserNamespace {
                 }
                 else
                 {
-                    return TiparVariavel(variavel, list_var);
+                    if (iter - 1 == list_var.Count)
+                    {
+                        return new Tipo("sem_tipo");
+                    }
+                    return TiparVariavel(variavel, list_var, iter + 1);
                 }
             }
         }
@@ -124,7 +128,7 @@ namespace ParserNamespace {
                 case "var":
                     if (termo is VarTermo vt)
                     {
-                        return TiparVariavel(vt.Var, list_var);
+                        return TiparVariavel(vt.Var, list_var, 0);
                     }
                     else
                     {
